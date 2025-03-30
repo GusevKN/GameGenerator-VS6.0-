@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameGenerator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/GameGenerator.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGenerator.rc"" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GameGenerator.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\4of20DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\4of20WinDlg.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\5of36DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\6of45DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGenerator.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGeneratorDlg.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\RapidoDlgWin.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7A.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GameGenerator.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7B.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/GameGenerator.pdb" /machine:I386 /out:"Release/GameGenerator.exe" 
+".\Release\4of20DlgWin.obj"
+".\Release\4of20WinDlg.obj"
+".\Release\5of36DlgWin.obj"
+".\Release\6of45DlgWin.obj"
+".\Release\GameGenerator.obj"
+".\Release\GameGeneratorDlg.obj"
+".\Release\RapidoDlgWin.obj"
+".\Release\StdAfx.obj"
+".\Release\GameGenerator.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+4of20DlgWin.cpp
+4of20WinDlg.cpp
+5of36DlgWin.cpp
+6of45DlgWin.cpp
+GameGenerator.cpp
+GameGeneratorDlg.cpp
+RapidoDlgWin.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GameGenerator.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GameGenerator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/GameGenerator.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGenerator.rc"" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GameGenerator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\4of20DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\5of36DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\6of45DlgWin.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGenerator.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\GameGeneratorDlg.cpp"
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\RapidoDlgWin.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7E.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MDd /w /W0 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GameGenerator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\4of20WinDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GameGenerator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Администратор\Рабочий стол\PT\PT-ACA.001_VS6.0_GUI Мои программы\PT-ACA.001.010.GUI  GameGenerator\2018111306_GameGenerator\GameGenerator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP80.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GameGenerator.pdb" /debug /machine:I386 /out:"Debug/GameGenerator.exe" /pdbtype:sept 
+".\Debug\4of20DlgWin.obj"
+".\Debug\4of20WinDlg.obj"
+".\Debug\5of36DlgWin.obj"
+".\Debug\6of45DlgWin.obj"
+".\Debug\GameGenerator.obj"
+".\Debug\GameGeneratorDlg.obj"
+".\Debug\RapidoDlgWin.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GameGenerator.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP81.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+4of20DlgWin.cpp
+5of36DlgWin.cpp
+6of45DlgWin.cpp
+GameGenerator.cpp
+GameGeneratorDlg.cpp
+RapidoDlgWin.cpp
+Generating Code...
+Compiling...
+4of20WinDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GameGenerator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
